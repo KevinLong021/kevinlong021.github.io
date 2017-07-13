@@ -1,3 +1,3 @@
 # kevinlong021.github.io
-WIP Website
-View Progress here <a href> https://kevinlong021.github.io <a>
+<p>WIP Website</p>
+<p>View Progress here <a href> https://kevinlong021.github.io <a></p>
