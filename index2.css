@@ -103,13 +103,14 @@ a:hover {
 
 h1{
 	margin: 0px;
-	margin-left: 2vw;
+	margin-left: 5vw;
 	font-family: 'Montserrat','sans-serif';
 	font-size: 5vw;
 	z-index: 0;
 }
 #videos{
 	z-index: 0;
+	margin-top: -10vw;
 }
 
 #videostitle{
@@ -121,12 +122,24 @@ h1{
 
 }
 
+hr{
+    width: 98%;
+    border-width: 1px;
+    border-style: solid;
+}
+
 #video1{
-	
+	height: 25.5vw;
+    width: 46%;
+    margin: 2%;
+    float: left;
 }
 
 #video2{
-	
+	height: 25.5vw;
+    width: 46%;
+    margin: 2%;
+    float: right;
 }
 
 #articles{
@@ -134,7 +147,7 @@ h1{
 }
 
 #articlestitle{
-	
+
 }
 
 #articledivider{
@@ -142,9 +155,15 @@ h1{
 }
 
 #article1{
-	
+	height: 25.5vw;
+    width: 46%;
+    margin: 2%;
+    float: left;	
 }
 
 #article2{
-	
+	height: 25.5vw;
+    width: 46%;
+    margin: 2%;
+    float: right;
 }
