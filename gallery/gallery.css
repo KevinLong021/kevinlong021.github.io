@@ -31,6 +31,7 @@
 	align-items: center;
 	justify-content: center;
 	font-family: 'Montserrat','sans-serif';
+	animation: entranceAnimation 0.5s forwards 0.5s linear;
 }
 #videos a{
 	position: absolute;
@@ -45,6 +46,7 @@
 	align-items: center;
 	justify-content: center;
 	font-family: 'Montserrat','sans-serif';
+	animation: entranceAnimation 0.5s forwards 0.4s linear;
 }
 #design a{
 	position: absolute;
@@ -59,6 +61,7 @@
 	align-items: center;
 	justify-content: center;
 	font-family: 'Montserrat','sans-serif';
+	animation: entranceAnimation 0.5s forwards 0.3s linear;
 }
 #other a{
 	position: absolute;
@@ -66,4 +69,15 @@
 	width: 33.33%;
 	height: 100%;
 	z-index: 35;
+}
+
+@keyframes entranceAnimation{
+	0%{
+		transform: translateY(-100%);
+		opacity: 1;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
 }
