@@ -26,7 +26,7 @@
 }
 
 #videos {
-	background-color: white;
+	background-color: #EFEFEF;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -36,12 +36,12 @@
 #videos a{
 	position: absolute;
 	display: block;
-	width: 33.33%;
+	width: 100%;
 	height: 100%;
 	z-index: 35;
 }
 #design {
-	background-color: #52565b;
+	background-color: #00CC52;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -51,12 +51,12 @@
 #design a{
 	position: absolute;
 	display: block;
-	width: 33.33%;
+	width: 100%;
 	height: 100%;
 	z-index: 35;
 }
 #other {
-	background-color: crimson;
+	background-color: #0541D8;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -66,7 +66,7 @@
 #other a{
 	position: absolute;
 	display: block;
-	width: 33.33%;
+	width: 100%;
 	height: 100%;
 	z-index: 35;
 }
